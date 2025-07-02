@@ -6,7 +6,12 @@
 }
 
 body {
-  background: #f8f1eb;
+  background-image: url('bg-pink.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
   font-family: 'Montserrat', sans-serif;
   color: #111;
   display: flex;
@@ -21,6 +26,9 @@ body {
   padding: 40px 20px;
   max-width: 400px;
   width: 100%;
+  background-color: rgba(255, 255, 255, 0.85);
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 }
 
 .profile-img {
@@ -98,6 +106,10 @@ body {
 
 .icones i:hover {
   transform: scale(1.1);
+}
+
+.icones a:nth-child(3) i {
+  color: #111; /*Wattpad */
 }
 
 /* Responsivo */
